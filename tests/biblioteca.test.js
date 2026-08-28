@@ -19,7 +19,7 @@ describe('Biblioteca - adiciona ou elimina livros', () => {
         expect(livroDisponivel("diario de um banana")).toBeFalsy()
     });
 
-    it(' QuantidadeDeLivros - Tem a funcão de ver quantos livros fora cadastrados', () => {
-        expect(contarLivros()).toHaveLenght(3)
+    it(' QuantidadeDeLivros - Tem a funcão de ver quantos livros tem na biblioteca cadastrados', () => {
+        expect(listarLivros()).toBe(10)
     })
 });
